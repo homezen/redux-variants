@@ -1,0 +1,8 @@
+.npmrc
+node_modules/**
+lib/**
+coverage/**
+
+*.log
+npm-debug.log*
+Gemfile.lock
