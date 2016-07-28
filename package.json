@@ -1,6 +1,6 @@
 {
   "name": "redux-variants",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Universal JavaScript variants system for Redux",
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",
@@ -85,7 +85,7 @@
     "bluebird": "^3.4.1",
     "debug": "^2.2.0",
     "es6-error": "^3.0.0",
-    "lodash": "^4.14",
+    "lodash": "^4.13",
     "react-redux": "^4.4.5",
     "reselect": "^2.5.3"
   },

@@ -12,10 +12,7 @@ module.exports = function(config) {
         ],
 
         preprocessors: {
-            './src/*.test.js': ['webpack', 'sourcemap'],
-            './src/**/*.test.js': ['webpack', 'sourcemap'],
-            './src/*.client-test.js': ['webpack', 'sourcemap'],
-            './src/**/*.client-test.js': ['webpack', 'sourcemap'],
+            './src/**': ['webpack', 'sourcemap'],
         },
 
         frameworks: ['chai', 'mocha'],
