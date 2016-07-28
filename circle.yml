@@ -30,5 +30,5 @@ deployment:
         branch: master
         commands:
             - cp .npmrc.ci .npmrc
-            - npm info
+            - npm info || echo "no published package yet"
             - npm run deploy
