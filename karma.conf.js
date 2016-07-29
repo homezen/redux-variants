@@ -5,10 +5,7 @@ module.exports = function(config) {
         browsers: ['Chrome', 'Firefox'],
 
         files: [
-            './src/*.test.js',
-            './src/**/*.test.js',
-            './src/*.client-test.js',
-            './src/**/*.client-test.js',
+            './src/client-tests.bundle.js',
         ],
 
         preprocessors: {
