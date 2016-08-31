@@ -6,6 +6,7 @@
 .remarkrc
 .ruby-version
 circle.yml
+codecov.yml
 do-release.sh
 Gemfile
 Gemfile.lock
