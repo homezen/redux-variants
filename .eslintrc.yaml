@@ -20,6 +20,9 @@
         - plugin:lodash/recommended
     rules:
         lodash/prefer-lodash-method: 2
+        lodash/path-style:
+            - 2
+            - as-needed
         lodash-fp/no-chain: 2
         lodash-fp/no-argumentless-calls: 2
         lodash-fp/no-extraneous-iteratee-args: 2
@@ -144,6 +147,7 @@
         react/jsx-no-literals: 2
         react/jsx-no-undef: 2
         react/jsx-pascal-case: 2
+        react/jsx-wrap-multilines: 2
         react/no-danger: 2
         react/no-deprecated: 2
         react/no-did-mount-set-state: 2
@@ -160,7 +164,6 @@
             - 2
             -   callbacksLast: true
                 requiredFirst: true
-        react/wrap-multilines: 2
         semi:
             - 2
             - never
