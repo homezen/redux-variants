@@ -31,7 +31,7 @@ const connectVariants = curry((config, ComposedComponent) => {
         )
     }))
 
-    return connect(mapStateToProps)(ComposedComponent)
+    return connect(mapStateToProps, {})(ComposedComponent)
 })
 
 export default connectVariants
