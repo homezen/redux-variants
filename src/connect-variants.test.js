@@ -6,8 +6,7 @@ import {
 
 import React, {Component} from 'react'
 import {createStore} from 'redux'
-import {Provider} from 'react-redux'
-import {mount} from 'enzyme'
+import {shallow} from 'enzyme'
 import {expect} from './test-helpers'
 import {connectVariants} from '.'
 
@@ -37,10 +36,8 @@ describe('ConnectVariants HoC', () => {
             variantCeteri: {name: 'variantCeteri'},
         }
         const ConnectedComponent = connectVariants({propsToVariants})(TestComponent)
-        const wrapper = mount(
-            <Provider store={store}>
-                <ConnectedComponent />
-            </Provider>
+        const wrapper = shallow(
+            <ConnectedComponent store={store} />
         )
         /* eslint-disable lodash/prefer-lodash-method */
         const testComponentInst = wrapper.find(TestComponent)
@@ -60,10 +57,8 @@ describe('ConnectVariants HoC', () => {
             variantFour: {name: 'variantCeteri'},
         }
         const ConnectedComponent = connectVariants({propsToVariants})(TestComponent)
-        const wrapper = mount(
-            <Provider store={store}>
-                <ConnectedComponent />
-            </Provider>
+        const wrapper = shallow(
+            <ConnectedComponent store={store} />
         )
         /* eslint-disable lodash/prefer-lodash-method */
         const testComponentInst = wrapper.find(TestComponent)
@@ -83,10 +78,8 @@ describe('ConnectVariants HoC', () => {
             variantCeteri: {name: 'variantCeteri', type: 'boolean'},
         }
         const ConnectedComponent = connectVariants({propsToVariants})(TestComponent)
-        const wrapper = mount(
-            <Provider store={store}>
-                <ConnectedComponent />
-            </Provider>
+        const wrapper = shallow(
+            <ConnectedComponent store={store} />
         )
         /* eslint-disable lodash/prefer-lodash-method */
         const testComponentInst = wrapper.find(TestComponent)
