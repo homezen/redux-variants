@@ -1,5 +1,7 @@
 # redux-variants
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/homezen/redux-variants.svg)](https://greenkeeper.io/)
+
 [![CircleCI](https://circleci.com/gh/homezen/redux-variants/tree/master.svg?style=shield)](https://circleci.com/gh/homezen/redux-variants/tree/master)
 [![codecov](https://codecov.io/gh/homezen/redux-variants/branch/master/graph/badge.svg)](https://codecov.io/gh/homezen/redux-variants)
 
