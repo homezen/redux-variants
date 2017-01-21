@@ -6,9 +6,11 @@ import {
     propertyOf,
 } from 'lodash'
 
+/* eslint-disable lodash/import-scope */
 import {
     omitBy as fpOmitBy,
 } from 'lodash/fp'
+/* eslint-enable lodash/import-scope */
 
 const defaultConfig = {
     checkCookies: true,
