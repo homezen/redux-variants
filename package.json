@@ -1,6 +1,6 @@
 {
   "name": "redux-variants",
-  "version": "1.0.33",
+  "version": "1.0.34",
   "description": "Universal JavaScript variants system for Redux",
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",
