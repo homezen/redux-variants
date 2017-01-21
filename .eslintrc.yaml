@@ -19,6 +19,7 @@
         - plugin:react/recommended
         - plugin:lodash/recommended
     rules:
+        lodash/import-scope: [2, member]
         lodash/prefer-lodash-method: 2
         lodash/path-style:
             - 2
