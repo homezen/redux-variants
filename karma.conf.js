@@ -1,3 +1,5 @@
+/* eslint import/unambiguous:0 */
+
 const webpack = require('webpack')
 
 const isCI = !!process.env.CI

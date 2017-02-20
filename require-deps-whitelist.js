@@ -1,3 +1,4 @@
+/* eslint import/unambiguous:0 */
 /* eslint no-unreachable: 0 */
 
 throw new Error('This code should never be run.  Its purpose is to whitelist deps for `npm-check`')

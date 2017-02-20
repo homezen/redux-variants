@@ -36,9 +36,9 @@ describe('ConnectVariants HoC', () => {
             variantCeteri: {name: 'variantCeteri'},
         }
         const ConnectedComponent = connectVariants({propsToVariants})(TestComponent)
-        const wrapper = shallow(
+        const wrapper = shallow((
             <ConnectedComponent store={store} />
-        )
+        ))
         /* eslint-disable lodash/prefer-lodash-method */
         const testComponentInst = wrapper.find(TestComponent)
         /* eslint-enable lodash/prefer-lodash-method */
@@ -57,9 +57,9 @@ describe('ConnectVariants HoC', () => {
             variantFour: {name: 'variantCeteri'},
         }
         const ConnectedComponent = connectVariants({propsToVariants})(TestComponent)
-        const wrapper = shallow(
+        const wrapper = shallow((
             <ConnectedComponent store={store} />
-        )
+        ))
         /* eslint-disable lodash/prefer-lodash-method */
         const testComponentInst = wrapper.find(TestComponent)
         /* eslint-enable lodash/prefer-lodash-method */
@@ -78,9 +78,9 @@ describe('ConnectVariants HoC', () => {
             variantCeteri: {name: 'variantCeteri', type: 'boolean'},
         }
         const ConnectedComponent = connectVariants({propsToVariants})(TestComponent)
-        const wrapper = shallow(
+        const wrapper = shallow((
             <ConnectedComponent store={store} />
-        )
+        ))
         /* eslint-disable lodash/prefer-lodash-method */
         const testComponentInst = wrapper.find(TestComponent)
         /* eslint-enable lodash/prefer-lodash-method */
