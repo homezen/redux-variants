@@ -73,7 +73,7 @@
     "react-dom": "~15.4.0",
     "redux": "~3.6.0",
     "remark-cli": "~2.1.0",
-    "remark-lint": "~5.4.0",
+    "remark-lint": "~6.0.0",
     "sinon": "~2.0.0-pre",
     "sinon-chai": "~2.8.0",
     "source-map-support": "~0.4.10",
