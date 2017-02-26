@@ -3,6 +3,7 @@
   "version": "1.0.44",
   "description": "Universal JavaScript variants system for Redux",
   "main": "lib/index.js",
+  "module": "src/index.js",
   "jsnext:main": "src/index.js",
   "scripts": {
     "build": "npm run clean && npm run build-js",
@@ -78,7 +79,7 @@
     "sinon-chai": "~2.8.0",
     "source-map-support": "~0.4.10",
     "watch": "~1.0.1",
-    "webpack": "~1.14"
+    "webpack": "~2.2.1"
   },
   "dependencies": {
     "bluebird": "^3.4.6",

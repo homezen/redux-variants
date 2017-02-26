@@ -42,24 +42,17 @@ module.exports = function(config) {
                 new webpack.IgnorePlugin(/source-map-support/),
             ],
             module: {
-                preLoaders: [
-                    {
-                        test: /.json$/,
-                        loader: 'json',
-                    },
-                    {
-                        test: /\.js$/,
-                        include: [
-                            /src/,
-                        ],
-                        exclude: [
-                            /server-test\.js$/,
-                        ],
-                        loader: 'babel',
-                    },
-                ],
+                rules: [{
+                    test: /\.js$/,
+                    include: [
+                        /src/,
+                    ],
+                    exclude: [
+                        /server-test\.js$/,
+                    ],
+                    use: [{loader: 'babel-loader'}],
+                }],
             },
-            browser: {fs: false},
         },
         webpackMiddleware: {
             noInfo: true,
