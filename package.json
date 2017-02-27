@@ -3,8 +3,6 @@
   "version": "1.0.45",
   "description": "Universal JavaScript variants system for Redux",
   "main": "lib/index.js",
-  "module": "src/index.js",
-  "jsnext:main": "src/index.js",
   "scripts": {
     "build": "npm run clean && npm run build-js",
     "build-js": "BLUEBIRD_DEBUG=1 NODE_ENV=production babel src -s -d lib",
