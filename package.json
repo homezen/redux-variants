@@ -16,7 +16,7 @@
     "lint-yaml": "bundle exec yaml-lint *.yml *.yaml",
     "lint-remark": "remark -f src/**/*.md *.md",
     "lint-watch": "watch 'eslint --ignore-path .gitignore .' src",
-    "release": "NODE_ENV=production BLUEBIRD_DEBUG=1 ./do-release.sh",
+    "release": "hz-release-public-module",
     "start": "npm run dev",
     "test": "npm run test-mocha && npm run test-karma",
     "test-karma": "karma start",
@@ -33,6 +33,7 @@
     "npm": "^2 || ^3 || ^4"
   },
   "devDependencies": {
+    "@homezen/hz-npm-scripts": "~1.1.1",
     "babel-cli": "~6.23.0",
     "babel-core": "~6.23.1",
     "babel-eslint": "~7.1.1",
