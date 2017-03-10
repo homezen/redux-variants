@@ -1,6 +1,6 @@
 {
   "name": "redux-variants",
-  "version": "1.0.46",
+  "version": "1.0.53",
   "description": "Universal JavaScript variants system for Redux",
   "main": "lib/index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "lint-yaml": "bundle exec yaml-lint *.yml *.yaml",
     "lint-remark": "remark -f src/**/*.md *.md",
     "lint-watch": "watch 'eslint --ignore-path .gitignore .' src",
-    "release": "NODE_ENV=production BLUEBIRD_DEBUG=1 ./do-release.sh",
+    "release": "hz-release-public-module",
     "start": "npm run dev",
     "test": "npm run test-mocha && npm run test-karma",
     "test-karma": "karma start",
@@ -33,10 +33,11 @@
     "npm": "^2 || ^3 || ^4"
   },
   "devDependencies": {
+    "@homezen/hz-npm-scripts": "~1.2.0",
     "babel-cli": "~6.23.0",
     "babel-core": "~6.23.1",
     "babel-eslint": "~7.1.1",
-    "babel-loader": "~6.3.0",
+    "babel-loader": "~6.4.0",
     "babel-plugin-istanbul": "~4.0.0",
     "babel-plugin-lodash": "~3.2.9",
     "babel-preset-es2015": "~6.22.0",
@@ -48,10 +49,10 @@
     "chai-as-promised": "~6.0.0",
     "chai-enzyme": "~0.6.1",
     "codecov": "~1.0.1",
-    "cross-env": "~3.1.4",
+    "cross-env": "~3.2.0",
     "enzyme": "~2.7.0",
     "eslint": "^3.15.0",
-    "eslint-config-homezen": "~1.4.0",
+    "eslint-config-homezen": "~1.6.0",
     "json-loader": "~0.5.4",
     "karma": "~1.5.0",
     "karma-chai": "~0.1.0",
