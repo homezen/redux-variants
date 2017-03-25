@@ -50,7 +50,7 @@
     "chai-enzyme": "~0.6.1",
     "codecov": "~2.1.0",
     "cross-env": "~3.2.0",
-    "enzyme": "~2.7.0",
+    "enzyme": "~2.8.0",
     "eslint": "^3.15.0",
     "eslint-config-homezen": "~1.8.0",
     "json-loader": "~0.5.4",
