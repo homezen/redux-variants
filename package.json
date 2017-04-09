@@ -1,6 +1,6 @@
 {
   "name": "redux-variants",
-  "version": "1.0.71",
+  "version": "1.0.72",
   "description": "Universal JavaScript variants system for Redux",
   "main": "lib/index.js",
   "scripts": {
