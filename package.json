@@ -1,6 +1,6 @@
 {
   "name": "redux-variants",
-  "version": "1.0.98",
+  "version": "1.0.99",
   "description": "Universal JavaScript variants system for Redux",
   "main": "lib/index.js",
   "scripts": {
@@ -74,7 +74,7 @@
     "remark-cli": "~3.0.0",
     "remark-lint": "~6.0.0",
     "sinon": "~2.3.0",
-    "sinon-chai": "~2.10.0",
+    "sinon-chai": "~2.11.0",
     "source-map-support": "~0.4.10",
     "watch": "~1.0.1",
     "webpack": "~3.0.0-rc.1"
