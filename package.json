@@ -1,6 +1,6 @@
 {
   "name": "redux-variants",
-  "version": "1.0.95",
+  "version": "1.0.99",
   "description": "Universal JavaScript variants system for Redux",
   "main": "lib/index.js",
   "scripts": {
@@ -29,13 +29,13 @@
   "author": "SpainTrain",
   "license": "MIT",
   "engines": {
-    "node": "^4 || ^6 || ^7",
+    "node": "^4 || ^6 || ^8",
     "npm": "^2 || ^3 || ^4"
   },
   "devDependencies": {
     "@homezen/hz-npm-scripts": "~1.2.0",
     "babel-cli": "~6.24.1",
-    "babel-core": "~6.24.0",
+    "babel-core": "~6.25.0",
     "babel-eslint": "~7.2.0",
     "babel-loader": "~7.0.0",
     "babel-plugin-istanbul": "~4.1.1",
@@ -46,7 +46,6 @@
     "babel-preset-stage-3": "~6.22.0",
     "babel-register": "~6.24.0",
     "chai": "~4.0.2",
-    "chai-as-promised": "~6.0.0",
     "chai-enzyme": "~0.7.0",
     "codecov": "~2.2.0",
     "cross-env": "~5.0.0",
@@ -75,10 +74,10 @@
     "remark-cli": "~3.0.0",
     "remark-lint": "~6.0.0",
     "sinon": "~2.3.0",
-    "sinon-chai": "~2.10.0",
+    "sinon-chai": "~2.11.0",
     "source-map-support": "~0.4.10",
     "watch": "~1.0.1",
-    "webpack": "~2.6.0"
+    "webpack": "~3.0.0-rc.1"
   },
   "dependencies": {
     "bluebird": "^3.4.6",
