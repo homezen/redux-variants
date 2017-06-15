@@ -67,7 +67,7 @@
     "nodemon": "~1.11.0",
     "npm-check": "~5.4.0",
     "nyc": "~11.0.2",
-    "react": "~15.5.3",
+    "react": "~15.6.0",
     "react-addons-test-utils": "~15.5.0",
     "react-dom": "~15.5.3",
     "redux": "~3.6.0",
