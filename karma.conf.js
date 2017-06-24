@@ -2,11 +2,10 @@
 
 const webpack = require('webpack')
 
-const isCI = !!process.env.CI
 
 module.exports = function(config) {
     config.set({
-        browsers: isCI ? ['Firefox'] : ['Chrome', 'Firefox'],
+        browsers: ['ChromeHeadless', 'ChromeCanaryHeadless', 'Firefox'],
 
         files: [
             './src/*.test.js',
