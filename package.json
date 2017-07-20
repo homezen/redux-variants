@@ -71,7 +71,7 @@
     "react-addons-test-utils": "~15.6.0",
     "react-dom": "~15.6.1",
     "redux": "~3.7.0",
-    "remark-cli": "~3.0.0",
+    "remark-cli": "~4.0.0",
     "remark-lint": "~6.0.0",
     "sinon": "~2.3.0",
     "sinon-chai": "~2.12.0",
