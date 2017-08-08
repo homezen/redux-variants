@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "packages": [
+    {
+      "packagePatterns": [
+        "^babel.*",
+        "^chai.*",
+        "^codecov.*",
+        "^enzyme.*",
+        "^eslint.*",
+        "^karma.*",
+        "^mocha.*",
+        "^nock.*",
+        "^npm-check.*",
+        "^nyc.*",
+        "^react.*",
+        "^redux.*",
+        "^remark.*",
+        "^sinon.*",
+        "^webpack.*"
+      ],
+      "autoMerge": "minor"
+    }
+  ]
+}
