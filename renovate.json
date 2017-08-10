@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "packages": [
+  "packageRules": [
     {
       "packagePatterns": [
         "^babel.*",
