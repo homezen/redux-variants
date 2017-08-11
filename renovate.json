@@ -19,7 +19,7 @@
         "^sinon.*",
         "^webpack.*"
       ],
-      "autoMerge": "minor"
+      "automerge": "minor"
     }
   ]
 }
