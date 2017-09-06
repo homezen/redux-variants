@@ -19,7 +19,7 @@ dependencies:
         - rm -rf ~/.yarn
     override:
         - bundle install
-        - yarn install --no-lockfile
+        - yarn install --pure-lockfile
     post:
         # Chrome 53 / Karma issue
         - wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
