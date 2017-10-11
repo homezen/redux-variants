@@ -20,6 +20,15 @@
         "^webpack.*"
       ],
       "automerge": "minor"
+    },
+    {
+      "packageNames": [
+        "react",
+        "react-dom",
+        "react-addons-test-utils",
+        "react-test-renderer"
+      ],
+      "groupName": "react"
     }
   ]
 }
