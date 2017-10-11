@@ -9,8 +9,11 @@ try {
 import chai from 'chai'
 import 'sinon'
 import sinonChai from 'sinon-chai'
+import enzyme from 'enzyme'
+import EnzymeAdapter from 'enzyme-adapter-react-15'
 import chaiEnzyme from 'chai-enzyme'
 
+enzyme.configure({adapter: new EnzymeAdapter()})
 chai.use(sinonChai)
 chai.use(chaiEnzyme())
 chai.config.includeStack = true
