@@ -15,7 +15,7 @@ dependencies:
         - uname -a && . /etc/lsb-release && echo $DISTRIB_DESCRIPTION
         - npm i -g npm@^5
         - npm -v
-        - npm i -g yarn
+        - npm i -g yarn@^1
         - rm -rf ~/.yarn
     override:
         - bundle install

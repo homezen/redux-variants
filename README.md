@@ -9,8 +9,13 @@ Universal JavaScript variants system for Redux (plus React helpers)
 
 ## Supported platform
 
-*   node v4.X and 6.X
-*   npm v3.X
+*   node 6.x, 8.x
+*   React 16.x
+*   Redux 3.x
+
+## Unsupported But Should Work
+
+* React 15.6.x
 
 ## Getting Started
 
